@@ -2585,7 +2585,7 @@ static struct camera_flash_info msm_camera_sensor_ov8830_flash_info = {
 
 static struct camera_flash_cfg msm_camera_sensor_ov8830_flash_cfg = {
 	.low_temp_limit		= 5,
-	.low_cap_limit		= 15,
+	.low_cap_limit		= 5,
 	.flash_info             = &msm_camera_sensor_ov8830_flash_info,
 };
 /* HTC_END */
